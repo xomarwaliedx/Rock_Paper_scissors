@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "intgr",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "bte",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "bte2",
+						"type": "bytes32"
+					}
+				],
+				"name": "LogMessage",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test print.sol": "ExampleContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test print.sol": {
+			"keccak256": "0xa7a09301c168ddf05df61dd45c39840f71b91cb47cc00576461b2de231b9a717",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4def91b766f5aac0a09248b8c5b81de34c5a002f0ad3700599ee5c369e836907",
+				"dweb:/ipfs/QmVMMVLDD4GMveBLToTjXTfbnaobLroU1u6MPJbeGkiRdL"
+			]
+		}
+	},
+	"version": 1
+}
